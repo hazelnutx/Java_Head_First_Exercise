@@ -1,26 +1,29 @@
 package Chapter11_MIDI;
 
-class MyEx extends Exception {
+class MyEx extends Exception {}
 
-    public static void main(String[] args) {
-        String test = "yes";
+class ExTestDrive {
+    public static void main(String[] args){
 
-        try {
-            System.out.print("w");
+        String test = "no";
+
+        try{
+            System.out.print("t");
             doRisky(test);
-            System.out.print("s");
-        }catch (MyEx ex){
-            System.out.print("w");
+            System.out.print("o");
+        }catch (MyEx e){
+            System.out.print("a");
         }finally {
-            System.out.print("r");
+            System.out.print("w");
         }
+        System.out.print("s");
     }
-    static void doRisky(String t) throws MyEx {
 
+    static void doRisky(String t) throws MyEx {
         System.out.print("h");
         if("yes".equals(t)){
             throw new MyEx();
         }
-        System.out.print("a");
+        System.out.print("r");
     }
 }
