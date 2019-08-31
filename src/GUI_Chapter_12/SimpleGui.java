@@ -1,6 +1,6 @@
 package GUI_Chapter_12;
 import javax.swing.*;
-import java.awt.event.*;
+import java.awt.*;
 
 class SimpleGui {
     public static void main(String[] args) {
