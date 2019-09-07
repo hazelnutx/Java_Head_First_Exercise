@@ -4,8 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Animate {
-    int x = 1;
-    int y = 1;
+    int x = 2;
+    int y = 2;
 
     public static void main(String[] args) {
         Animate gui = new Animate();
@@ -13,7 +13,11 @@ public class Animate {
     }
 
     public void go() {
+<<<<<<< HEAD
         JFrame frame = new JFrame("Oh sheet!");
+=======
+        JFrame frame = new JFrame();
+>>>>>>> f7dcc15dfc9e555cbf09b299d890c9300428cda9
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         MyDrawP drawP = new MyDrawP();
