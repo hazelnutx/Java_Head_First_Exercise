@@ -13,11 +13,9 @@ public class Animate {
     }
 
     public void go() {
-<<<<<<< HEAD
+
         JFrame frame = new JFrame("Oh sheet!");
-=======
-        JFrame frame = new JFrame();
->>>>>>> f7dcc15dfc9e555cbf09b299d890c9300428cda9
+
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         MyDrawP drawP = new MyDrawP();

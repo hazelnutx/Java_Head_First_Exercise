@@ -10,7 +10,7 @@ public class Button1 {
     }
 
     public void go() {
-        JFrame frame = new JFrame("lets say this");
+        JFrame frame = new JFrame("lets sy this");
         JButton button = new JButton("click me liek you mean it");
         Font bigFont = new Font("serif", Font.BOLD, 28);
         button.setFont(bigFont);
