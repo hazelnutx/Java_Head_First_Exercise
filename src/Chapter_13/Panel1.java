@@ -22,6 +22,7 @@ public class Panel1 {
         panel.add(button);
         panel.add(button2);
         frame.getContentPane().add(BorderLayout.EAST, panel);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300, 300);
         frame.setVisible(true);
     }
