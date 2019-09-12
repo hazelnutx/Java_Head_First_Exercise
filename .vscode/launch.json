@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - HighScore",
+            "request": "launch",
+            "mainClass": "Udemy_Java.HighScore"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Remainder",
+            "request": "launch",
+            "mainClass": "Chapter_13.Remainder"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Panel1",
             "request": "launch",
             "mainClass": "Chapter_13.Panel1"
