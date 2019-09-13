@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "Udemy_Java.Main",
+            "projectName": "CodeMagnetsLibraryChapter6_c226f081"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SpeedConverter",
+            "request": "launch",
+            "mainClass": "Udemy_Java.SpeedConverter",
+            "projectName": "CodeMagnetsLibraryChapter6_c226f081"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HighScore",
             "request": "launch",
             "mainClass": "Udemy_Java.HighScore"

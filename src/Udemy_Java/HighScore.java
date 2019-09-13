@@ -1,4 +1,6 @@
 package Udemy_Java;
+import javax.swing.*;
+
 
 public class HighScore {
     public static void main(String[] args) {
@@ -26,6 +28,5 @@ public class HighScore {
             position = 3;
         }
         return position;
-
     }
 }
