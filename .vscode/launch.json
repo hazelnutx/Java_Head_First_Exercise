@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SecondsToMinutes",
+            "request": "launch",
+            "mainClass": "Udemy_Java.SecondsToMinutes",
+            "projectName": "CodeMagnetsLibraryChapter6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FeetAndInchesToCentimeters",
             "request": "launch",
             "mainClass": "Udemy_Java.FeetAndInchesToCentimeters",
