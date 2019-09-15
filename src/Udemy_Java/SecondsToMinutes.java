@@ -2,18 +2,29 @@ package Udemy_Java;
 
 public class SecondsToMinutes {
     public static void main(String[] args) {
-        getDurationString(60, 10);
+        System.out.println(getDurationString(100, 34));
+
+        System.out.println(getDurationString(65));
     }
 
-    public static String getDurationString(int minutes, int seconds) {
-        if (minutes < 0 || seconds < 0 && seconds > 59) {
+    private static String getDurationString(long minutes, long seconds) {
+        if (minutes < 0 || seconds < 0 || seconds > 59) {
             return "Invalid Value";
         }
 
-        int getHours = (minutes + seconds) / 60;
-        int remainderHours = getHours % 60;
-        System.out.println(getHours + " h " + remainderHours + " m");
-        return getDurationString(getHours, remainderHours);
+        long hours = minutes / 60;
+        long remainingMinutes = minutes % 60;
+        return hours + "h " + remainingMinutes + "m " + seconds + "s";
 
+    }
+
+    private static String getDurationString(long seconds) {
+        if (seconds < 0) {
+            return "Invalid value";
+        }
+
+        long minutes = seconds / 60;
+        long remainingSeconds = seconds % 60;
+        return getDurationString(minutes, remainingSeconds);
     }
 }
