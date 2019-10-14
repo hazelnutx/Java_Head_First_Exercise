@@ -1,14 +1,20 @@
 package GUI_Chapter_12;
 import javax.sound.midi.*;
+
 import javax.swing.*;
 import java.awt.*;
 
 public class MiniMusicPlayer3 {
     static JFrame f = new JFrame("My first Music VIdeo");
     static MyDrawPanel ml;
-    public static void main(String[] args){
-        MiniMusicPlayer3 mini = new MiniMusicPlayer3();
-        mini.go();
+    
+//    public static void main(String[] args){
+//        MiniMusicPlayer3 mini = new MiniMusicPlayer3();
+//        mini.go();
+//    }
+    public static void main(String[] args) {
+    	MiniMusicPlayer3 mini = new MiniMusicPlayer3();
+    	mini.go();
     }
 
     public void setUpGui(){
